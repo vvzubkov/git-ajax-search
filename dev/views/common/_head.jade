@@ -1,0 +1,30 @@
+head
+  block title
+    title UserHouse
+
+  block meta
+    include _meta
+
+  block favicon
+    // ---------------- favicon ------------------------------------------
+    link(href = 'common/' + 'img/' + "favicon.ico", rel="icon", type="image/x-icon")
+    link(href = 'common/' + 'img/' + "favicon.ico", rel="shortcut icon", type="image/x-icon")
+    link(href = 'common/' + 'img/' + "favicon.ico", rel="apple-touch-icon")
+
+  block style
+    //- inject:css
+
+    //- endinject
+
+    link(href="css/style.css", rel="stylesheet")
+
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js")
+
+    | <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    | <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    | <!--[if lt IE 9]>
+    |  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    |  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    | <![endif]-->
+
+  block extra_style

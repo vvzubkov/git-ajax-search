@@ -1,0 +1,20 @@
+block var
+  -var pageName;
+
+doctype html
+//[if IE]>
+  <html class="ie" lang="ru"> <![endif]
+html(lang="ru")
+  include ../common/_head
+
+  body
+    #main-wrapper
+
+      include ../components/_header
+      main#main
+        block content
+          block content_extra
+
+      include ../components/_footer
+
+    include ../common/_script

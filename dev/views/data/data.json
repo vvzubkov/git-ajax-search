@@ -1,0 +1,26 @@
+{
+    "hdr_nav_data": {
+        "services": {
+            "name": "Услуги",
+            "ref": "/services.html"
+        },
+        "projects": {
+            "name": "Проекты",
+            "ref": "/projects.html"
+        },
+        "agency": {
+            "name": "Компания",
+            "ref": "/company.html"
+        },
+        "articles": {
+            "name": "Статьи",
+            "ref": "/articles.html"
+        },
+        "contacts": {
+            "name": "Контакты",
+            "ref": "/contacts.html"
+        }
+    }
+}
+
+
